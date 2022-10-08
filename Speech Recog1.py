@@ -41,4 +41,5 @@ def cmd():
         engine.runAndWait()
         program='http://youtube.com'
         subprocess.Popen(program)
-cmd()
+while True:
+    cmd()
